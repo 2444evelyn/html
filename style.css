@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+    width: 100%;
+    background-image: url(pictures/);
+    background-position:center;
+    background-size: center;
+    height:100vh;
+    position:fixed;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width:40px;
+    float:left;
+    height: 70px;
+}
+.logo{
+    color:greenyellow;
+    font-size: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:left;
+    float:left;
+    padding-top: 10px;
+
+
+}
+.mean{
+    width: 400px;
+    float:left;
+    height: 40px;
+}
+ul{
+    float: left;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+
+}
+ul li a{
+    text-decoration: none;
+    color:green;
+    font-family:Arial;
+    font-weight: bold;
+    transition:0.4s ease ease-in-out;
+}
+ul li a:hover{
+    color: #fff200;
+}
+.search{
+    width: 338px;
+    float:left;
+    margin-left:100px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid #fff200;
+    margin-top: 13px;
+    color:black;
+    border-right:none;
+    font-size:14px;
+    float: left;
+    padding:10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius:radius 10px;
+}
+.btn{
+    width:50px;
+    height: 20px;
+    background: #fff200;
+    border:2px solid #fff200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.btn:focus{
+    outline:none;  
+}
+.search:focus{
+   outline: none; 
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color:greenyellow;
+    position: relative;
+}
+.content.par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family:'Franklin Gothic Medium';
+    letter-spacing:1.2px;
+    line-height: 30px;
+}
+.content hi{
+    font-family: 'Times New Roman';
+    font-size:30px;
+    padding-left: 20px;
+    margin-top:9%;
+    letter-spacing:2px
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #fff200;
+    border:none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor:pointer;
+    transition:4s ease
+}
+.content .cn a{
+    text-decoration:none;
+    color:#000;
+    transition: .3s ease;
+}
+.cn:hover{
+    background-color: #fff;
+
+}
+.content span{
+    color:#fff200;
+    font-size: 60px; 
+}
+.form{
+    width: 200px;
+    height: 300px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)40%,rgba(0,0,0,0.8)40%);
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width:180px;
+    font-family:sans-serif;
+    text-align: center;
+    color:green;
+    font: size 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding:8px;
+}
+.form input{
+    width: 200px;
+    height:30px;
+    background: transparent;
+    border-bottom: 1px solid green;
+    border-top:none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30 px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outlin:none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family:Arial;
+}
+.btnn{
+    width:200px;
+    height: 40px;
+    background: #fff200;
+    border:none;
+    margin-top:30px;
+    font-size: 18px;
+    border: radius 10px;
+    cursor:pointer;
+    color:#fff;
+    transition:0.4 ease ;
+
+}
+.btnn:hover{
+   background: #fff;
+   color: #fff200; 
+}
+.btnn a{
+   text-decoration: none;
+   color:#000;
+   font-weight: bold;
+
+}
+.form .link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+
+}
+.form .link a{
+     text-decoration:none;
+     color: #fff200;
+
+}
+.liw{
+    padding-top: 15px; ;
+    padding-bottom: 10px;
+    text-align:center;
+    
+}
