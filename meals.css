@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(230, 196, 84);
+
+}
+
+.logo{
+    color:green;
+    font-size: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:left;
+    float:left;
+    padding-top: 10px;
+}
+.main{
+    width: 100%;
+    background-color: rgb(230, 196, 84); 
+     background-position:center;
+    background-size: cover;
+    height: 200vh;  
+} 
+.mean{
+    width: 400px;
+    float:left;
+    height: 40px;
+}
+ul{
+    float: left;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top:3% ;
+}
+.drnk p{
+    margin-top: 20%;
+    margin-left: 50%;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-family:Arial;
+    font-weight: bold;
+    transition:0.4s ease ease-in-out;
+}
+.ul li a:hover{
+    color: #fff200;
+}
+.sub{
+    margin-bottom: 5%;
+    
+}
+.sub h3{
+    padding-top:10%;
+}
+.sub p{
+    margin-left: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}.sub span{
+    color:#fff200;
+    font-size: 60px;
+} 
+.food{
+    padding: 2%;
+} 
+.vid{
+    margin-left:35% ;
+}
+        
+
